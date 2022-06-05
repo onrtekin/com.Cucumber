@@ -12,3 +12,9 @@ Feature: Amazon Search
       Then kullanici Java icin arama yapar
       And sonuclarin Java icerdigini test eder
       And sayfayi kapatir
+
+    Scenario: TC03 kullanici amazonda Laptop aratir
+      Given kullanici amazon sayfasinda
+      Then kullanici Laptop icin arama yapar
+      And sonuclarin Laptop icerdigini test eder
+      And sayfayi kapatir

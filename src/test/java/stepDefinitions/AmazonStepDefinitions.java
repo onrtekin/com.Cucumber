@@ -45,6 +45,21 @@ public class AmazonStepDefinitions {
 
 
     }
+
+
+    @Then("kullanici Laptop icin arama yapar")
+    public void kullaniciLaptopIcinAramaYapar() {
+        amazonPage.aramaKutusu.sendKeys("Laptop"+ Keys.ENTER);
+
+    }
+
+    @And("sonuclarin Laptop icerdigini test eder")
+    public void sonuclarinLaptopIcerdiginiTestEder() {
+        String arananKelime="Laptop";
+        String actualAramaSonuc=amazonPage.aramaSonuc.getText();
+        Assert.assertTrue(actualAramaSonuc.contains(arananKelime));
+
+    }
     @Then("sayfayi kapatir")
     public void sayfayi_kapatir() {
         Driver.closeDriver();
