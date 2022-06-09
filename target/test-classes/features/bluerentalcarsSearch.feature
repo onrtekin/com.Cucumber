@@ -20,7 +20,7 @@ Feature: Bluerentalcars Search
     And login olamadigini test eder
     And kullanici sayfayi kapatir
 
-
+@pr1
   Scenario: TC03 kullanici wrong email ve valid password ile login olamaz
 
     Given kullanici Bluerentalcars sayfasinda
@@ -30,7 +30,7 @@ Feature: Bluerentalcars Search
     And kullanici ikinci login butonuna basar
     And login olamadigini test eder
     And kullanici sayfayi kapatir
-
+    @sirali
     Scenario: TC04 kullanici wrong email ve password ile login olamaz
 
       Given kullanici Bluerentalcars sayfasinda
