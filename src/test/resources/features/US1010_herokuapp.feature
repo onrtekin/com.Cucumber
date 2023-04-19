@@ -1,6 +1,6 @@
 Feature: US1010 herokuapp delete testi
 
-  @heroku @pr1
+
   Scenario: TC15 herokuapp 'da delete butonu calismali
     Given kullanici "herokuappUrl" sayfasinda
     And add element butonuna basar

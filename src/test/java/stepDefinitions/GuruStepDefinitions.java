@@ -12,7 +12,7 @@ public class GuruStepDefinitions {
     GuruPage guruPage = new GuruPage();
 
     @Given("{string}, sutunundaki tum degerleri yazdirir")
-    public void ıstenen_baslik_sutunundaki_tum_degerleri_yazdirir(String istenenSutun) {
+    public void istenen_baslik_sutunundaki_tum_degerleri_yazdirir(String istenenSutun) {
 
         List<WebElement> tabloBaslikListesi = guruPage.baslikListesi;
         int istenenBaslikIndex = -3;

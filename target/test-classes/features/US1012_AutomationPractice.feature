@@ -1,6 +1,6 @@
 Feature: U1012 Kullanici register yapabilmeli
 
-  @aut
+
   Scenario: TC17 kullanici uygun datalarla register olabilmeli
 
     Given kullanici "automationUrl" sayfasinda

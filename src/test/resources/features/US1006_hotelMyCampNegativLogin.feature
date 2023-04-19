@@ -4,7 +4,7 @@
   #3-yanlis username  yanlis password
   Feature: US1006 yanlis bilgilerle siteye giris yapilamaz
 
-    @pr2
+
     Scenario: TC09 yanlis password ile giris yapilamaz
       Given kullanici "HMCUrl" sayfasinda
       Then Log in yazisina tiklar

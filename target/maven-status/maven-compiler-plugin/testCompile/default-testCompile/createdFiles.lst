@@ -1,8 +1,10 @@
+stepDefinitions\AutomationStepDefinitions.class
 stepDefinitions\AmazonStepDefinitions.class
 stepDefinitions\BlueRentAlCarsStepDefinitions.class
 pages\GuruPage.class
 pages\DatatablesPage.class
 pages\HerokuPage.class
+pages\AutomationPage.class
 stepDefinitions\DataTableSteDefinitions.class
 stepDefinitions\HerokuAppstepDefinitions.class
 pages\AmazonPage.class
@@ -11,6 +13,7 @@ utilities\Driver.class
 pages\HMCPage.class
 stepDefinitions\Hooks.class
 runners\TestRunner2.class
+stepDefinitions\ExcelStepDefinitions.class
 utilities\ConfigReader.class
 pages\BlueRentalCarsPage.class
 stepDefinitions\HMCStepDefinitions.class

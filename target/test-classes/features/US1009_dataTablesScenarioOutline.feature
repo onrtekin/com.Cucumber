@@ -1,7 +1,7 @@
 Feature: US1009 datatables sitesine 5 farkli giris yapalim
 
-  @datatable
-  Scenario Outline: TC14 5 farkli kayit girisi yapilabilmeli
+
+  Scenario Outline: TC14 4 farkli kayit girisi yapilabilmeli
     When kullanici "datatablesUrl" sayfasinda
     Then new butonuna basar
     And isim bolumune "<firstname>" yazar
@@ -20,5 +20,4 @@ Feature: US1009 datatables sitesine 5 farkli giris yapalim
       | Alim      | Alim     | qa       | ankara     | UI        | 2021-09-10 | 10000  |
       | Berk      | Ay       | dev      | istanbul   | selenium  | 2022-04-12  | 12000  |
       | Can       | Gul      | tester   | safranbolu | api       | 2021-05-04   | 9000   |
-      | Ali       | Can      | PO       | Van        | java      | 2020-05-12 | 15000  |
       | Ayse      | Can      | BA       | bolu       | Pat       | 2019-07-08 | 20000  |

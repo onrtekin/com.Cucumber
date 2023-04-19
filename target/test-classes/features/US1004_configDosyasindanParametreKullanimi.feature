@@ -5,3 +5,4 @@ Feature: US1004 Kullanici parametre ile cnfiguration file i kullanabilmeli
     Then kullanici 5 sn bekler
     And url'in "blue" icerdigini test eder
     Then sayfayi kapatir
+    And gider
